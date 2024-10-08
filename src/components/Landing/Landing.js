@@ -1,10 +1,10 @@
 import React, { useContext } from 'react';
-// import { Button } from '@material-ui/core';
+import Button from '@mui/material/Button';
 import { makeStyles } from '@mui/styles'; // Corrected import
 import { NavHashLink as NavLink } from 'react-router-hash-link';
-import { makeStyles } from '@mui/styles';
 import './Landing.css';
 import { ThemeContext } from '../../contexts/ThemeContext';
+import { sizeTheme } from '../../contexts/ThemeContext';
 import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
 
@@ -37,7 +37,7 @@ function Landing() {
                 color: theme.secondary,
                 border: `3px solid ${theme.tertiary}`,
             },
-            [t.breakpoints.down('sm')]: {
+            [sizeTheme.breakpoints.down('sm')]: {
                 width: '180px',
             },
         },
@@ -59,7 +59,7 @@ function Landing() {
                 color: theme.tertiary,
                 border: `3px solid ${theme.tertiary}`,
             },
-            [t.breakpoints.down('sm')]: {
+            [sizeTheme.breakpoints.down('sm')]: {
                 display: 'none',
             },
         },

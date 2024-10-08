@@ -6,8 +6,6 @@ import {
     expPink,expPurple,expRed,expYellow,contactsBlack,contactsBlue,contactsGreen,contactsOrange,contactsPink,contactsPurple,
     contactsRed,contactsYellow
 } from './images'
-
-
 export const greenThemeLight = {
     type: 'light',
     primary: '#3fc337',

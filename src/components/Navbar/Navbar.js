@@ -1,15 +1,19 @@
 import React, { useContext, useState } from 'react';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
-import Fade from 'react-reveal/Fade';
 import { IoMenuSharp, IoHomeSharp } from 'react-icons/io5';
 import { HiDocumentText } from 'react-icons/hi';
 import { BsFillGearFill } from 'react-icons/bs';
 import { MdPhone } from 'react-icons/md';
 import { FaUser, FaFolderOpen } from 'react-icons/fa';
-import { makeStyles } from '@material-ui/core/styles';
-import Drawer from '@material-ui/core/Drawer';
-import CloseIcon from '@material-ui/icons/Close';
+import { makeStyles } from '@mui/styles'; // Corrected import
+// import Fade from 'react-reveal/Fade';
+// import Drawer from 'react-reveal/Drawer';
+import Fade from 'react-reveal/Fade'; // Ensure this is correctly imported
+// import Drawer from 'react-reveal/Drawer'; // Ensure this is correctly imported
+import { Drawer } from '@mui/material';
 
+// import CloseIcon from '@material-ui/icons/Close';
+import CloseIcon from '@mui/icons-material/Close'; // Updated import
 import './Navbar.css';
 import { headerData } from '../../data/headerData';
 import { ThemeContext } from '../../contexts/ThemeContext';

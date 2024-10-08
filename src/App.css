@@ -1,3 +1,6 @@
+:root {
+  --primaryFont: 'Poppins', sans-serif;
+}
 .App {
   text-align: center;
 }

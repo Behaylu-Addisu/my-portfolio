@@ -2,17 +2,13 @@ import React, { useContext } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { ThemeContext } from './contexts/ThemeContext';
 import Main from './pages/Main/Main';
-// import BlogPage from './pages/Blog/BlogPage';
+import BlogPage from './pages/Blog/BlogPage';
 import ProjectPage from './pages/Project/ProjectPage';
-
-// import { BackToTop } from './components';
-// import ScrollToTop from '../src/utils/ScrollToTop';
-
+import { BackToTop } from './components';
+import ScrollToTop from '../src/utils/ScrollToTop';
 import './App.css';
-
 function App() {
   const { theme } = useContext(ThemeContext);
-
   console.log("%cDEVELOPER PORTFOLIO", `color:${theme.primary}; font-size:50px`);
   console.log("%chttps://github.com/hhhrrrttt222111/developer-portfolio", `color:${theme.tertiary}; font-size:20px`);
 
@@ -20,18 +16,15 @@ function App() {
   return (
     <div className="app">
       <Router>
-        {/* <ScrollToTop /> */}
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Main />} />
-          {/* <Route path="/blog" element={<BlogPage />} /> */}
+          <Route path="/blog" element={<BlogPage />} />
           <Route path="/projects" element={<ProjectPage />} />
           <Route path="*" element={<Navigate to="/" />} /> {/* Catch-all for redirects */}
         </Routes>
       </Router>
-      <div>
-        {/* <h1> Hello </h1> */}
-      </div>
-      {/* <BackToTop /> */}
+      <BackToTop />
     </div>
   );
 }

@@ -1,6 +1,7 @@
 export const aboutData = {
     title: "Who I am",
-    description1: "Hello! My name is Sreerag Rajan. I'm an aspiring web developer based in India.",
-    description2: "I am a student at Masai School, currently learning Fullstack Web-Development. A project that I worked on towards the end of my Master’s in History set me on this path of a web developer. The project involved looking at movies on historical themes that could be considered as an educational tool. The website was not the focus of the project, but working on it was such a thrilling experience that a career in this felt like a right fit. Other than this I am a bibliophile, who not just loves reading books but also buying and maintaining a personal library.",
-    image: 2
+    description1: "I'm Behaylu Addisu (Getye) a passionate Mobile App and Web Developer dedicated to crafting high-quality, user-centered experiences that solve real-world problems. With a blend of creativity and technical expertise, I specialize in building robust, scalable applications that empower businesses and delight users. From sleek mobile interfaces to responsive web designs, my goal is to bring your ideas to life with intuitive functionality and a seamless user experience.",
+    description2: "Driven by a love for technology and continuous learning, I thrive on challenges and stay ahead of the curve with the latest industry trends and tools. Whether it’s launching a feature-rich mobile app, developing a responsive website, or optimizing an existing product, I approach every project with a focus on excellence and innovation. ",
+    description3: "Let's build something amazing together!",
+    image: 2,
 }

@@ -6,17 +6,13 @@ import axios from 'axios';
 import isEmail from 'validator/lib/isEmail';
 import { makeStyles } from '@mui/styles'; // Corrected import
 import {
+    FaFacebook,
+    FaTelegram,
     FaTwitter,
     FaLinkedinIn,
     FaGithub,
     FaYoutube,
-    FaBloggerB,
-    FaRedditAlien,
-    FaStackOverflow,
-    FaCodepen,
     FaInstagram,
-    FaGitlab,
-    FaMediumM,
 } from 'react-icons/fa';
 import { AiOutlineSend, AiOutlineCheckCircle } from 'react-icons/ai';
 import { FiPhone, FiAtSign } from 'react-icons/fi';
@@ -145,7 +141,6 @@ function Contacts() {
                     console.log('success');
                     setSuccess(true);
                     setErrMsg('');
-
                     setName('');
                     setEmail('');
                     setMessage('');
@@ -170,14 +165,14 @@ function Contacts() {
             <div className='contacts--container'>
                 <h1 style={{ color: theme.primary }}>Contacts</h1>
                 <div className='contacts-body'>
-                    {/* <div className='contacts-form'>
+                    <div className='contacts-form'>
                         <form onSubmit={handleContactForm}>
                             <div className='input-container'>
                                 <label htmlFor='Name' className={classes.label}>
                                     Name
                                 </label>
                                 <input
-                                    placeholder='John Doe'
+                                    placeholder='Getye Ngst'
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
                                     type='text'
@@ -193,7 +188,7 @@ function Contacts() {
                                     Email
                                 </label>
                                 <input
-                                    placeholder='John@doe.com'
+                                    placeholder='ngst@gmail.com'
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                     type='email'
@@ -279,11 +274,11 @@ function Contacts() {
                                 message={errMsg}
                             />
                         </Snackbar>
-                    </div> */}
+                    </div> 
 
                     <div className='contacts-details'>
                         <a
-                            // href={`mailto:${contactsData.email}`}
+                            href={`mailto:${contactsData.email}`}
                             className='personal-details'
                         >
                             <div className={classes.detailsIcon}>
@@ -294,7 +289,7 @@ function Contacts() {
                             </p>
                         </a>
                         <a
-                            // href={`tel:${contactsData.phone}`}
+                            href={`tel:${contactsData.phone}`}
                             className='personal-details'
                         >
                             <div className={classes.detailsIcon}>
@@ -312,9 +307,18 @@ function Contacts() {
                                 {contactsData.address}
                             </p>
                         </div>
-
                         <div className='socialmedia-icons'>
-                            {/* {socialsData.twitter && (
+                            {socialsData.telegram && (
+                                <a
+                                    href={socialsData.telegram}
+                                    target='_blank'
+                                    rel='noreferrer'
+                                    className={classes.socialIcon}
+                                >
+                                    <FaTelegram aria-label='Telegram' />
+                                </a>
+                            )}
+                            {socialsData.twitter && (
                                 <a
                                     href={socialsData.twitter}
                                     target='_blank'
@@ -323,7 +327,7 @@ function Contacts() {
                                 >
                                     <FaTwitter aria-label='Twitter' />
                                 </a>
-                            )} */}
+                            )}
                             {socialsData.github && (
                                 <a
                                     href={socialsData.github}
@@ -344,7 +348,7 @@ function Contacts() {
                                     <FaLinkedinIn aria-label='LinkedIn' />
                                 </a>
                             )}
-                            {/* {socialsData.instagram && (
+                            {socialsData.instagram && (
                                 <a
                                     href={socialsData.instagram}
                                     target='_blank'
@@ -353,26 +357,15 @@ function Contacts() {
                                 >
                                     <FaInstagram aria-label='Instagram' />
                                 </a>
-                            )}*/}
-                            {socialsData.medium && (
-                                <a
-                                    href={socialsData.medium}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaMediumM aria-label='Medium' />
-                                </a>
                             )}
-                            {/*
-                            {socialsData.blogger && (
+                            {socialsData.facebook && (
                                 <a
-                                    href={socialsData.blogger}
+                                    href={socialsData.facebook}
                                     target='_blank'
                                     rel='noreferrer'
                                     className={classes.socialIcon}
                                 >
-                                    <FaBloggerB aria-label='Blogger' />
+                                    <FaFacebook aria-label='Facebook' />
                                 </a>
                             )}
                             {socialsData.youtube && (
@@ -385,46 +378,6 @@ function Contacts() {
                                     <FaYoutube aria-label='YouTube' />
                                 </a>
                             )}
-                            {socialsData.reddit && (
-                                <a
-                                    href={socialsData.reddit}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaRedditAlien aria-label='Reddit' />
-                                </a>
-                            )}
-                            {socialsData.stackOverflow && (
-                                <a
-                                    href={socialsData.stackOverflow}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaStackOverflow aria-label='Stack Overflow' />
-                                </a>
-                            )}
-                            {socialsData.codepen && (
-                                <a
-                                    href={socialsData.codepen}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaCodepen aria-label='CodePen' />
-                                </a>
-                            )}
-                            {socialsData.gitlab && (
-                                <a
-                                    href={socialsData.gitlab}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaGitlab aria-label='GitLab' />
-                                </a>
-                            )} */}
                         </div>
                     </div>
                 </div>

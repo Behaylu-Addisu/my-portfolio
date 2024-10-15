@@ -23,7 +23,8 @@
 
 
 .navbar--container > h1 {
-    font-family: 'BestermindRegular';
+    /* font-family: 'BestermindRegular'; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: var(--primary-2);
     font-size: 2.5rem;
     user-select: none;

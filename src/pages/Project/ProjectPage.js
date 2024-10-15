@@ -1,11 +1,9 @@
 import React, { useContext, useState } from 'react'
 import { Helmet } from 'react-helmet'
-// import { Grid } from '@material-ui/core'
 import { Grid } from '@mui/material';
-import { makeStyles } from '@mui/material/styles'; // Use styled instead of makeStyles
+import { makeStyles } from '@mui/styles'; // Corrected import
 
 import { Link } from 'react-router-dom'
-// import { makeStyles } from '@material-ui/core/styles';
 import { AiOutlineHome } from "react-icons/ai";
 
 import './ProjectPage.css'

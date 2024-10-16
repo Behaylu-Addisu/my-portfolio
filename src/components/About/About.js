@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
 import myImage from '../../assets/png/me2.png';
+import developer from '../../assets/png/developer.png'
 import './About.css';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { aboutData } from '../../data/aboutData';
-
 function About() {
 
     const { theme } = useContext(ThemeContext);
@@ -24,11 +24,12 @@ function About() {
                     </p>
                 </div>
                 <div className="about-img">
-                    <img 
+                    {/* <img 
                         src={aboutData.image === 2 ? theme.aboutimg1 : theme.aboutimg2} 
                         // src={myImage}
                         alt="" 
-                    />
+                    /> */}
+                    <img src={developer} alt='' height={400} />
                 </div>
             </div>
         </div>

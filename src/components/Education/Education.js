@@ -2,10 +2,15 @@ import React, { useContext } from 'react';
 
 import { ThemeContext } from '../../contexts/ThemeContext';
 
+import progImg from '../../assets/svg/education/progImg.svg'
+// import eduImg from '../../assets/svg/education/eduImg.svg'
+import eduImg from '../../assets/png/eduImg.png'
+
 import './Education.css'
 import EducationCard from './EducationCard';
 
 import { educationData } from '../../data/educationData'
+import { IoMagnet } from 'react-icons/io5';
 
 function Education() {
 
@@ -28,7 +33,8 @@ function Education() {
                     ))}
                 </div>
                 <div className="education-image">
-                    <img src={theme.eduimg} alt=""/>
+                    <img src={progImg} alt='' />
+                    <img src={eduImg} alt="" />
                 </div>
             </div>
         </div>

@@ -132,7 +132,7 @@ function Landing() {
                         borderColor: theme.secondary,
                     }}
                 />
-                {/* <img
+                <img
                     src ={myImage}
                     alt=''
                     className='landing--img'
@@ -140,7 +140,7 @@ function Landing() {
                         opacity: `${drawerOpen ? '0' : '1'}`,
                         borderColor: theme.secondary,
                     }}
-                /> */}
+                />
                 <div
                     className='landing--container-right'
                     style={{ backgroundColor: theme.secondary }}

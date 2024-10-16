@@ -1,8 +1,8 @@
 import levelup from '../assets/png/levelup.jpg'
-import two from '../assets/svg/projects/two.svg'
-import three from '../assets/svg/projects/three.svg'
-import four from '../assets/svg/projects/four.svg'
-import five from '../assets/svg/projects/five.svg'
+import habesha from '../assets/png/habesha.png'
+import model from '../assets/png/model.png'
+import chat from '../assets/png/chat.png'
+import portfolio from '../assets/png/portfolio.png'
 
 export const projectsData = [
     {
@@ -21,7 +21,7 @@ export const projectsData = [
         tags: ['html', 'CSS','BootStrap','JavaScript','PHP','MySqli'],
         code: 'https://github.com/Behaylu-Addisu/Ethio_model_exit_exam_template',
         // demo: 'https://educative-clone.vercel.app/',
-        image: two
+        image: model
     },
     {
         id: 3,
@@ -30,7 +30,7 @@ export const projectsData = [
         tags: ['html', 'CSS','BootStrap','JavaScript','PHP','MySqli'],
         code: 'https://github.com/Behaylu-Addisu/Chat-App',
         // demo: 'https://reliance-digital-clone.herokuapp.com/',
-        image: three
+        image: chat
     },
     {
         id: 4,
@@ -39,7 +39,7 @@ export const projectsData = [
         tags: ['HTML', 'CSS','BootStrap', 'Javascript', 'PHP', 'mySqli'],
         code: 'https://github.com/Behaylu-Addisu/HABESHA-BRAND',
         // demo: 'https://reliance-digital-clone.herokuapp.com/',
-        image: four
+        image: habesha
     },
     {
         id: 5,
@@ -48,7 +48,7 @@ export const projectsData = [
         tags: ['HTML', 'CSS', 'Javascript'],
         code: 'https://github.com/Behaylu-Addisu/HABESHA-BRAND',
         // demo: 'https://reliance-digital-clone.herokuapp.com/',
-        image: five
+        image: portfolio
     },
     
 ]

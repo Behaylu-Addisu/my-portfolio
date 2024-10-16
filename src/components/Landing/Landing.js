@@ -7,7 +7,8 @@ import { ThemeContext } from '../../contexts/ThemeContext';
 import { sizeTheme } from '../../contexts/ThemeContext';
 import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
-import { FaTwitter, FaLinkedin, FaGithub, FaYoutube, FaBlogger} from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaTelegram, FaInstagram} from 'react-icons/fa';
+import myImage from '../../assets/png/me.png';
 
 function Landing() {
     const { theme, drawerOpen } = useContext(ThemeContext);
@@ -94,45 +95,32 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {/* {socialsData.twitter && (
+                        {socialsData.telegram && (
                             <a
-                                href={socialsData.twitter}
+                                href={socialsData.telegram}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaTwitter
+                                <FaTelegram
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='Twitter'
+                                    aria-label='Telegram'
                                 />
                             </a>
                         )}
-                        {socialsData.youtube && (
+                        {socialsData.instagram && (
                             <a
-                                href={socialsData.youtube}
+                                href={socialsData.instagram}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaYoutube
+                                <FaInstagram
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='YouTube'
+                                    aria-label='Instagram'
                                 />
                             </a>
                         )}
-                        {socialsData.blogger && (
-                            <a
-                                href={socialsData.blogger}
-                                target='_blank'
-                                rel='noreferrer'
-                            >
-                                <FaBlogger
-                                    className='landing--social'
-                                    style={{ color: theme.secondary }}
-                                    aria-label='Blogger'
-                                />
-                            </a>
-                        )} */}
                     </div>
                 </div>
                 <img
@@ -144,6 +132,15 @@ function Landing() {
                         borderColor: theme.secondary,
                     }}
                 />
+                {/* <img
+                    src ={myImage}
+                    alt=''
+                    className='landing--img'
+                    style={{
+                        opacity: `${drawerOpen ? '0' : '1'}`,
+                        borderColor: theme.secondary,
+                    }}
+                /> */}
                 <div
                     className='landing--container-right'
                     style={{ backgroundColor: theme.secondary }}

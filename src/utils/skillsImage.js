@@ -72,8 +72,9 @@ import picsart from '../assets/svg/skills/picsart.svg'
 import sketch from '../assets/svg/skills/sketch.svg'
 import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
-
 import canva from '../assets/svg/skills/canva.svg'
+
+import expo from '../assets/svg/skills/expo.svg'
 
 
 export const skillsImage = (skill) => {
@@ -105,6 +106,10 @@ export const skillsImage = (skill) => {
             return nuxtJS;
         case 'react':
             return react;
+        case 'react native':
+            return react;
+        case 'expo':
+            return expo;
         case 'svelte':
             return svelte;
         case 'typescript':

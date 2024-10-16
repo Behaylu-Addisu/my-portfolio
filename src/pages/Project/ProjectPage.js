@@ -9,6 +9,7 @@ import { AiOutlineHome } from "react-icons/ai";
 import './ProjectPage.css'
 import { SingleProject } from '../../components';
 import { ThemeContext } from '../../contexts/ThemeContext';
+
 import { projectsData } from '../../data/projectsData'
 import { headerData } from '../../data/headerData'
 

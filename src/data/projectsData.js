@@ -7,48 +7,47 @@ import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
 import eight from '../assets/svg/projects/eight.svg'
 
-
 export const projectsData = [
     {
         id: 1,
         projectName: 'Level Up Integrated Tutoring',
-        projectDesc: 'This project seeks to explore whether the pedagogy of history can be improved with the visual media, particularly Cinema. The Website is intended to show movies that fit the bill. I have a fullstack role in this having built all of it.',
-        tags: ['React Native', 'Firebase' ,'tailwind', 'Git', 'Expo'],
+        projectDesc: '**Level Up Tutoring** is an educational platform, offering live sessions, chat, quizzes, and file sharing in various formats (video, audio, image, PDF). It supports five roles—CEO, admin, tutor, family, and student—and integrates online payments, enabling a collaborative and effective learning environment. Built with React Native and Firebase, it ensures secure and scalable services.',
+        tags: ['React Native', 'Firebase' ,'tailwind', 'Git', 'Expo',],
         code: 'https://github.com/Behaylu-Addisu/levelup',
         demo: 'https://historythroughmovies.pythonanywhere.com/',
         image: "https://github.com/sreerag-rajan/historythroughmovies/raw/master/htclandingpage.png"
     },
     {
         id: 2,
-        projectName: 'Sportsjam.in Clone',
-        projectDesc: 'This is a clone of an e-commerce website sportsjam.in. My contribution to this project was the product catalogue page and its features, like sorting and filtering. The rest of the project was built by various members of the group',
-        tags: ['HTML', 'CSS','Javascript'],
-        code: 'https://github.com/sreerag-rajan/sportsjam-clone',
-        demo: 'https://practical-meninsky-36f305.netlify.app/',
-        image: "https://camo.githubusercontent.com/f9fbe30b577cff2fbf09af53fb3c1f12fcc10a771bf9459ed5af10bffab9e38b/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3837352f312a525f5f63646e384c316759474b3154647171797562672e706e67"
-    },
-    {
-        id: 3,
-        projectName: 'Educative Clone',
-        projectDesc: 'This project is the clone of Educative.io. Built as part of Project week, my contributions include the home page(both with user and without user), course information page and checkout page. The rest of the pages and features were built by other members of my team',
-        tags: ['React', 'Material UI', 'Express', "MongoDB","NodeJS"],
+        projectName: 'University Model Exit Exam Template',
+        projectDesc: 'The Ethiopia University Model Exit Exam Template is a website designed to provide Ethiopian university students with a comprehensive platform for preparing for their exit exams. It offers access to model exams and practice tests aligned with university curricula, helping students to assess their knowledge and improve their performance. The platform is built to support efficient navigation and user interaction, ensuring a seamless and effective exam preparation experience.',
+        tags: ['html', 'CSS','BootStrap','JavaScript','PHP','MySqli'],
         code: 'https://github.com/Behaylu-Addisu/Ethio_model_exit_exam_template',
         demo: 'https://educative-clone.vercel.app/',
         image: "https://user-images.githubusercontent.com/85482640/161571651-35ab8e4e-dc57-4834-bafc-9485766f5b8a.png"
     },
     {
         id: 4,
-        projectName: 'Reliance Digital Clone - Backend Integration',
-        projectDesc: 'This is the clone of reliancedigital.in. Features I worked on the Product Catalogue pages and also on some minor parts on other pages as well',
-        tags: ['EJS', 'Express', 'MongoDB', 'Node.js'],
+        projectName: 'Web Chat App',
+        projectDesc: 'The Web Chat App is a multi-user messaging platform designed for seamless, real-time communication. Users can create accounts, join group chats, and exchange messages instantly with others',
+        tags: ['html', 'CSS','BootStrap','JavaScript','PHP','MySqli'],
         code: 'https://github.com/Behaylu-Addisu/Chat-App',
         demo: 'https://reliance-digital-clone.herokuapp.com/',
         image: "https://miro.medium.com/max/875/1*qRNfRbuHCDC1ct0chLZoWA.png"
     },
     {
         id: 5,
-        projectName: 'Reliance Digital Clone - Frontend',
-        projectDesc: 'This project is the clone of Reliance Digital built as a part of a project week. It simulates the functionality of an e-commerce website from landing page to checkout. My contribution was the product catalog page arriving from the navbar, as well as leading the team.',
+        projectName: ' ሐበሻ ብራንድ E-commerce website ',
+        projectDesc: 'The ሐበሻ ብራንድ E-commerce Website is an online shopping platform designed to offer a wide range of products with a focus on Ethiopian brands and culture. It provides a seamless shopping experience and features',
+        tags: ['HTML', 'CSS', 'Javascript'],
+        code: 'https://github.com/Behaylu-Addisu/HABESHA-BRAND',
+        demo: 'https://reliance-digital-clone.herokuapp.com/',
+        image: "https://miro.medium.com/max/875/1*qRNfRbuHCDC1ct0chLZoWA.png"
+    },
+    {
+        id: 6,
+        projectName: 'My Portfolio',
+        projectDesc: 'The ሐበሻ ብራንድ E-commerce Website is an online shopping platform designed to offer a wide range of products with a focus on Ethiopian brands and culture. It provides a seamless shopping experience and features',
         tags: ['HTML', 'CSS', 'Javascript'],
         code: 'https://github.com/Behaylu-Addisu/HABESHA-BRAND',
         demo: 'https://reliance-digital-clone.herokuapp.com/',

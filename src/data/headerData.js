@@ -1,5 +1,5 @@
 import resume from '../assets/pdf/resume.pdf'
-import myImage from '../assets/png/me.png'; 
+import myImage from '../assets/png/me2.png'; 
 
 export const headerData = {
     name: 'Behaylu Addisu',

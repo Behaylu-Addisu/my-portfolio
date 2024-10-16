@@ -172,7 +172,7 @@ function Contacts() {
                                     Name
                                 </label>
                                 <input
-                                    placeholder='Getye Ngst'
+                                    placeholder='Queen Elzabet'
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
                                     type='text'
@@ -188,7 +188,7 @@ function Contacts() {
                                     Email
                                 </label>
                                 <input
-                                    placeholder='ngst@gmail.com'
+                                    placeholder='queen@gmail.com'
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                     type='email'

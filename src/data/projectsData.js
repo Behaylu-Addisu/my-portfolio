@@ -1,11 +1,8 @@
-import one from '../assets/svg/projects/one.svg'
+import levelup from '../assets/png/levelup.jpg'
 import two from '../assets/svg/projects/two.svg'
 import three from '../assets/svg/projects/three.svg'
 import four from '../assets/svg/projects/four.svg'
 import five from '../assets/svg/projects/five.svg'
-import six from '../assets/svg/projects/six.svg'
-import seven from '../assets/svg/projects/seven.svg'
-import eight from '../assets/svg/projects/eight.svg'
 
 export const projectsData = [
     {
@@ -15,7 +12,7 @@ export const projectsData = [
         tags: ['React Native', 'Firebase' ,'tailwind', 'Git', 'Expo',],
         code: 'https://github.com/Behaylu-Addisu/levelup',
         // demo: 'https://historythroughmovies.pythonanywhere.com/',
-        image: "https://github.com/sreerag-rajan/historythroughmovies/raw/master/htclandingpage.png"
+        image: levelup
     },
     {
         id: 2,
@@ -24,34 +21,34 @@ export const projectsData = [
         tags: ['html', 'CSS','BootStrap','JavaScript','PHP','MySqli'],
         code: 'https://github.com/Behaylu-Addisu/Ethio_model_exit_exam_template',
         // demo: 'https://educative-clone.vercel.app/',
-        image: "https://user-images.githubusercontent.com/85482640/161571651-35ab8e4e-dc57-4834-bafc-9485766f5b8a.png"
+        image: two
     },
     {
-        id: 4,
+        id: 3,
         projectName: 'Web Chat App',
         projectDesc: 'The Web Chat App is a multi-user messaging platform designed for seamless, real-time communication. Users can create accounts, join group chats, and exchange messages instantly with others',
         tags: ['html', 'CSS','BootStrap','JavaScript','PHP','MySqli'],
         code: 'https://github.com/Behaylu-Addisu/Chat-App',
         // demo: 'https://reliance-digital-clone.herokuapp.com/',
-        image: "https://miro.medium.com/max/875/1*qRNfRbuHCDC1ct0chLZoWA.png"
+        image: three
     },
     {
-        id: 5,
+        id: 4,
         projectName: ' ሐበሻ ብራንድ E-commerce website ',
         projectDesc: 'The ሐበሻ ብራንድ E-commerce Website is an online shopping platform designed to offer a wide range of products with a focus on Ethiopian brands and culture. It provides a seamless shopping experience and features',
         tags: ['HTML', 'CSS','BootStrap', 'Javascript', 'PHP', 'mySqli'],
         code: 'https://github.com/Behaylu-Addisu/HABESHA-BRAND',
         // demo: 'https://reliance-digital-clone.herokuapp.com/',
-        image: "https://miro.medium.com/max/875/1*qRNfRbuHCDC1ct0chLZoWA.png"
+        image: four
     },
     {
-        id: 6,
+        id: 5,
         projectName: 'My Portfolio',
         projectDesc: 'The ሐበሻ ብራንድ E-commerce Website is an online shopping platform designed to offer a wide range of products with a focus on Ethiopian brands and culture. It provides a seamless shopping experience and features',
         tags: ['HTML', 'CSS', 'Javascript'],
         code: 'https://github.com/Behaylu-Addisu/HABESHA-BRAND',
         // demo: 'https://reliance-digital-clone.herokuapp.com/',
-        image: "https://miro.medium.com/max/875/1*qRNfRbuHCDC1ct0chLZoWA.png"
+        image: five
     },
     
 ]

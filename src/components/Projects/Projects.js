@@ -66,7 +66,7 @@ function Projects() {
                             ))}
                         </div>
 
-                        {/* {projectsData.length > 3 && (
+                        {projectsData.length > 3 && (
                             <div className="projects--viewAll">
                                 <Link to="/projects">
                                     <button className={classes.viewAllBtn}>
@@ -75,7 +75,7 @@ function Projects() {
                                     </button>
                                 </Link>
                             </div>
-                        )} */}
+                        )}
                     </div>
                 </div>
             )}

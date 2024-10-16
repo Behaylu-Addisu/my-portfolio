@@ -11,17 +11,17 @@ import boy3 from '../assets/svg/testimonials/boy3.svg'
 export const testimonialsData = [
     {
         id: 1,
-        name: 'Chandler Bing',
-        title: 'Transponster',
-        text: "Building my own portfolio could've never been easier than this. The only areas I'm good at are Math, Jokes and Dance.",
+        name: 'Rob Siltanen',
+        title: 'Advertising Executive',
+        text: "The people who are crazy enough to think they can change the world are the ones who do.",
         image: boy2
     },
     {
         id: 2,
-        name: 'Monica Geller',
-        title: 'Head Chef',
-        text: "This is the only thing that I didn't have to spend time to sort out. It's tidy all by itself.",
-        image: girl2
+        name: 'Ralph Waldo Emerson',
+        title: 'Philosopher',
+        text: "What lies behind us and what lies before us are tiny matters compared to what lies within us",
+        image: boy1
     },
     {
         id: 3,
@@ -39,17 +39,33 @@ export const testimonialsData = [
     },
     {
         id: 5,
-        name: 'Rachel Green',
-        title: 'Sales Executive',
-        text: 'Ralph Lauren was one of the best things that ever happened to me. My portfolio made that dream happen. I owe you guys.',
-        image: girl3
+        name: 'Tom Hiddleston',
+        title: 'Actor',
+        text: " You never know what's around the corner. It could be everything. Or it could be nothing. You keep putting one foot in front of the other, and then one day you look back and you've climbed a mountain ",
+        image: boy3
     },
     {
         id: 6,
-        name: 'Ross Geller',
-        title: 'Paleontologist',
-        text: "Be it 'Rocks' or 'Bones', you need a website to display it. This is it. Great work guys !",
+        name: 'Behaylu Addisu',
+        title: 'Programmar',
+        text: "Actions Spead louder than words !",
         image: boy3
+    },
+    {
+        id: 7,
+        name: 'Jim Lovell',
+        title: '',
+        text: "There are people who make things happen, there are people who watch things happen, and there are people who wonder what happened. To be successful, you need to be a person who makes things happen.",
+        image: boy1
+    },
+    {
+        id: 8,
+        name:'Emily Giffin ',
+        title:'',
+        text: "Often I feel that projects overwhelm us when we look at how many hours are involved until completion. But just getting started is usually not that difficult.",
+        image: girl3
     }
+
+    
 ]
 

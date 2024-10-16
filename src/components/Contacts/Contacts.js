@@ -289,14 +289,25 @@ function Contacts() {
                             </p>
                         </a>
                         <a
-                            href={`tel:${contactsData.phone}`}
+                            href={`tel:${contactsData.phone1}`}
                             className='personal-details'
                         >
                             <div className={classes.detailsIcon}>
                                 <FiPhone />
                             </div>
                             <p style={{ color: theme.tertiary }}>
-                                {contactsData.phone}
+                                {contactsData.phone1}
+                            </p>
+                        </a>
+                        <a
+                            href={`tel:${contactsData.phone2}`}
+                            className='personal-details'
+                        >
+                            <div className={classes.detailsIcon}>
+                                <FiPhone />
+                            </div>
+                            <p style={{ color: theme.tertiary }}>
+                                {contactsData.phone2}
                             </p>
                         </a>
                         <div className='personal-details'>

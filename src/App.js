@@ -2,7 +2,6 @@ import React, { useContext } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { ThemeContext } from './contexts/ThemeContext';
 import Main from './pages/Main/Main';
-import BlogPage from './pages/Blog/BlogPage';
 import ProjectPage from './pages/Project/ProjectPage';
 import { BackToTop } from './components';
 import ScrollToTop from '../src/utils/ScrollToTop';

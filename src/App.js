@@ -20,7 +20,6 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Main />} />
-          <Route path="/blog" element={<BlogPage />} />
           <Route path="/projects" element={<ProjectPage />} />
           <Route path="*" element={<Navigate to="/" />} /> {/* Catch-all for redirects */}
         </Routes>

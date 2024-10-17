@@ -5,6 +5,6 @@ export const socialsData = {
     instagram: 'https://www.instagram.com/behaylu25',
     telegram: 'https://t.me/behayluaddisu',
     twitter: '',
-    medium: 'https://medium.com/@sreerag.rajan5',
+    medium: '',
     youtube: 'https://www.youtube.com/',
 }

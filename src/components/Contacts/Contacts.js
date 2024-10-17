@@ -5,15 +5,8 @@ import Button from '@mui/material/Button';
 import axios from 'axios';
 import isEmail from 'validator/lib/isEmail';
 import { makeStyles } from '@mui/styles'; // Corrected import
-import {
-    FaFacebook,
-    FaTelegram,
-    FaTwitter,
-    FaLinkedinIn,
-    FaGithub,
-    FaYoutube,
-    FaInstagram,
-} from 'react-icons/fa';
+import {FaFacebook, FaTelegram, FaTwitter, FaLinkedinIn,
+    FaGithub, FaYoutube, FaInstagram, } from 'react-icons/fa';
 import { AiOutlineSend, AiOutlineCheckCircle } from 'react-icons/ai';
 import { FiPhone, FiAtSign } from 'react-icons/fi';
 import { HiOutlineLocationMarker } from 'react-icons/hi';

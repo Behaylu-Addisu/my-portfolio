@@ -1,8 +1,8 @@
-import levelup from '../assets/png/levelup.jpg'
-import habesha from '../assets/png/habesha.png'
-import model from '../assets/png/model.png'
-import chat from '../assets/png/chat.png'
-import portfolio from '../assets/png/portfolio.png'
+import levelup from '../assets/png/levelup.jpg';
+import habesha from '../assets/png/habesha.png';
+import model from '../assets/png/model.png';
+import chat from '../assets/png/chat.png';
+import portfolio from '../assets/png/portfolio.png';
 
 export const projectsData = [
     {

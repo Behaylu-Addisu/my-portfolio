@@ -17,7 +17,7 @@ export const educationData = [
         id: 3,
         institution: 'Biruh-tesfa Primary School, Debre Markos',
         course: 'Primary School',
-        startYear: '2001',
-        endYear: '2008'
+        startYear: '2009',
+        endYear: '2015'
     },
 ]

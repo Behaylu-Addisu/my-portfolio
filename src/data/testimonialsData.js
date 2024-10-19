@@ -48,7 +48,7 @@ export const testimonialsData = [
         id: 6,
         name: 'Behaylu Addisu',
         title: 'Programmar',
-        text: "Actions Spead louder than words !",
+        text: "Actions Speak louder than words !",
         image: boy3
     },
     {
@@ -64,8 +64,21 @@ export const testimonialsData = [
         title:'',
         text: "Often I feel that projects overwhelm us when we look at how many hours are involved until completion. But just getting started is usually not that difficult.",
         image: girl3
+    },
+    {
+        id: 9,
+        name:'Eyob Lake ',
+        title:'Programmar',
+        text: " the only thing stronger than fear is hope 🦅",
+        image: boy1
+    },
+    {
+        id: 10,
+        name:'Jack Ma ',
+        title:'entrepreneur',
+        text: "today is difficult tomorrow is much more difficult the day after tomorrow is beautiful but most people die tomorrow evening 😡",
+        image: boy3
     }
-
     
 ]
 

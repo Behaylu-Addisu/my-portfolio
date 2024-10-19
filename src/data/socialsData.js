@@ -4,7 +4,7 @@ export const socialsData = {
     linkedIn: 'https://www.linkedin.com/in/behayluaddisu',
     instagram: 'https://www.instagram.com/behaylu25',
     telegram: 'https://t.me/behayluaddisu',
-    twitter: 'https://x.com/behaluaddisu',
+    twitter: 'https://x.com/behayluaddisu',
     medium: '',
     youtube: 'https://www.youtube.com/',
 }

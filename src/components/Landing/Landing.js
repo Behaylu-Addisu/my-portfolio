@@ -7,7 +7,7 @@ import { ThemeContext } from '../../contexts/ThemeContext';
 import { sizeTheme } from '../../contexts/ThemeContext';
 import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
-import { FaLinkedin, FaGithub, FaTelegram, FaInstagram} from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaTelegram, FaInstagram, FaTwitter} from 'react-icons/fa';
 import myImage from '../../assets/png/me.png';
 
 function Landing() {
@@ -118,6 +118,19 @@ function Landing() {
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
                                     aria-label='Instagram'
+                                />
+                            </a>
+                        )}
+                        {socialsData.twitter && (
+                            <a
+                                href={socialsData.twitter}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <FaTwitter
+                                    className='landing--social'
+                                    style={{ color: theme.secondary }}
+                                    aria-label='Twitter'
                                 />
                             </a>
                         )}

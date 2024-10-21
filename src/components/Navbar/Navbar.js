@@ -12,6 +12,7 @@ import CloseIcon from '@mui/icons-material/Close'; // Updated import
 import './Navbar.css';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { sizeTheme } from '../../contexts/ThemeContext';
+import { headerData } from '../../data/headerData';
 // Move makeStyles outside the component to avoid recreating it on every render
 
 const useStyles = makeStyles((t) => ({
@@ -124,19 +125,19 @@ function Navbar() {
         setHandleDrawer();
     };
 
-    // const shortname = (name) => {
-    //     if (name.length > 12) {
-    //         return name.split(' ')[0];
-    //     } else {
-    //         return name;
-    //     }
-    // };
+    const shortname = (name) => {
+        if (name.length > 12) {
+            return name.split(' ')[0];
+        } else {
+            return name;
+        }
+    };
 
     return (
         <div className='navbar'>
             <div className='navbar--container'>
                 <h1 style={{ color: theme.secondary }}>
-                    Getye
+                    {shortname(headerData.name)}
                 </h1>
 
                 <IoMenuSharp

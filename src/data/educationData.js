@@ -8,14 +8,14 @@ export const educationData = [
     },
     {
         id: 2,
-        institution: 'Ethio-Japan Secondary and Preparatory School, Debre Markos',
+        institution: 'Ethio-Japan Secondary and Preparatory School',
         course: 'hischool and Preparatory',
         startYear: '2016',
         endYear: '2020'
     },
     {
         id: 3,
-        institution: 'Biruh-tesfa Primary School, Debre Markos',
+        institution: 'Biruh-Tesfa Primary School',
         course: 'Primary School',
         startYear: '2009',
         endYear: '2015'

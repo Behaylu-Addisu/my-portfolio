@@ -41,7 +41,8 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "plugins": ["testing-library"]
   },
   "browserslist": {
     "production": [

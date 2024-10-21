@@ -1,5 +1,4 @@
 import React, { useContext } from 'react';
-import myImage from '../../assets/png/me2.png';
 import developer from '../../assets/png/developer.png'
 import './About.css';
 import { ThemeContext } from '../../contexts/ThemeContext';

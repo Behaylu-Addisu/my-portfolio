@@ -1,7 +1,7 @@
 import React, { createContext, useState } from 'react'
 
 import { themeData } from '../data/themeData';
-import { ThemeProvider, createTheme } from '@mui/material/styles';
+import { createTheme } from '@mui/material/styles';
 
 export const sizeTheme = createTheme({
     breakpoints: {

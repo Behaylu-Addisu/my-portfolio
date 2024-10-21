@@ -10,7 +10,6 @@ import Fade from 'react-reveal/Fade'; // Ensure this is correctly imported
 import { Drawer } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close'; // Updated import
 import './Navbar.css';
-import { headerData } from '../../data/headerData';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { sizeTheme } from '../../contexts/ThemeContext';
 // Move makeStyles outside the component to avoid recreating it on every render
@@ -125,13 +124,13 @@ function Navbar() {
         setHandleDrawer();
     };
 
-    const shortname = (name) => {
-        if (name.length > 12) {
-            return name.split(' ')[0];
-        } else {
-            return name;
-        }
-    };
+    // const shortname = (name) => {
+    //     if (name.length > 12) {
+    //         return name.split(' ')[0];
+    //     } else {
+    //         return name;
+    //     }
+    // };
 
     return (
         <div className='navbar'>

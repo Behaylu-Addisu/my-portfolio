@@ -18,13 +18,57 @@
     margin-top: 1rem;
     /* position: fixed; */
     /* top: 10px; */
-    
 }
+
 .navbar--container > h1 {
     font-family: 'BestermindRegular';
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     color: var(--primary-2);
-    font-size: 2.5rem;
+    /* font-size: 2.5rem; */
     user-select: none;
+}
+
+.mylogo {
+    height: 3rem; /* Adjust based on your design needs */
+    width: 3rem; /* Set width equal to height for a perfect circle */
+    position: absolute; /* Position it relative to the navbar */
+    top: 0.5rem; /* Adjust based on your layout */
+    left: 0.5rem; /* Adjust horizontal position */
+    z-index: 100; /* Ensure it's above other elements */
+    border-radius: 50%; /* Fully rounded corners */
+    user-select: none; /* Prevent text selection */
+    overflow: hidden; /* Ensures the content does not overflow the border radius */
+}
+
+.mylogo img {
+    width: 100%; /* Ensure the image fills the logo container */
+    height: 100%; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the entire area */
+}
+
+/* Additional styles for different screen sizes */
+@media (max-width: 1100px) {
+    .mylogo {
+        height: 4rem; /* Adjust for medium screens */
+        width: 4rem; /* Set width equal to height */
+        left: 2rem; /* Adjust position */
+    }
+}
+
+@media (max-width: 800px) {
+    .mylogo {
+        height: 3.5rem; /* Further reduce size for smaller screens */
+        width: 3.5rem; /* Set width equal to height */
+        left: 1.5rem; /* Adjust position */
+    }
+}
+
+@media (max-width: 600px) {
+    .mylogo {
+        height: 3rem; /* Further adjust size for mobile screens */
+        width: 3rem; /* Set width equal to height */
+        left: 1rem; /* Adjust position */
+    }
 }
 
 .navLink--container {
@@ -36,46 +80,41 @@
     backdrop-filter: blur(20px) !important;
 }
 
-
-
-@media (max-width:1100px) {
-    .navbar--container{
+@media (max-width: 1100px) {
+    .navbar--container {
         padding: 0 2rem;
     }
-    .navbar--container > h1{
+    .navbar--container > h1 {
         font-size: 2.2rem;
     }
-    .nav-menu{
+    .nav-menu {
         font-size: 2.2rem;
         margin-top: -1.5rem;
     }
 }
 
-@media (max-width:800px) {
+@media (max-width: 800px) {
     .navLink--container {
         margin-top: 3rem;
     }
 }
 
-
-@media (max-width:600px) {
-    .nav-menu{
+@media (max-width: 600px) {
+    .nav-menu {
         color: var(--primary-2);
     }
-    .navbar--container > h1{
+    .navbar--container > h1 {
         font-size: 2rem;
     }
-    .nav-menu:hover{
+    .nav-menu:hover {
         color: var(--primary-2);
     }
-    .MuiDrawer-paper{
-      border-radius: 0 !important;
+    .MuiDrawer-paper {
+        border-radius: 0 !important;
     }
 }
 
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 
-  480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
     .navbar {
         height: 5rem;
     }

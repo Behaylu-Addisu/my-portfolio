@@ -13,6 +13,7 @@ import './Navbar.css';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { sizeTheme } from '../../contexts/ThemeContext';
 import { headerData } from '../../data/headerData';
+import mylogo from '../../assets/png/mylogo.png'
 // Move makeStyles outside the component to avoid recreating it on every render
 
 const useStyles = makeStyles((t) => ({
@@ -135,9 +136,10 @@ function Navbar() {
 
     return (
         <div className='navbar'>
+            <img src={mylogo} alt='image' className='mylogo' />
             <div className='navbar--container'>
                 <h1 style={{ color: theme.secondary }}>
-                    {shortname(headerData.name)}
+                    {shortname(headerData.name)} Addisu
                 </h1>
 
                 <IoMenuSharp

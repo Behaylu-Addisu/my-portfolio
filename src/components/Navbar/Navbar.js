@@ -136,7 +136,7 @@ function Navbar() {
 
     return (
         <div className='navbar'>
-            <img src={mylogo} alt='image' className='mylogo' />
+            <img src={mylogo} alt='' className='mylogo' />
             <div className='navbar--container'>
                 <h1 style={{ color: theme.secondary }}>
                     {shortname(headerData.name)} Addisu

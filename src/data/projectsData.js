@@ -17,7 +17,7 @@ export const projectsData = [
     {
         id: 2,
         projectName: 'University Model Exit Exam',
-        projectDesc: '',
+        projectDesc: 'The Ethiopia University Model Exit Exam website helps Ethiopian university students prepare for their exit exams. It offers model exams and practice tests aligned with university curricula, allowing students to assess their knowledge and improve performance. The platform is designed for easy navigation and efficient user interaction, providing a seamless exam preparation experience.',
         tags: ['html', 'CSS','BootStrap','JavaScript','PHP','MySqli'],
         code: 'https://github.com/Behaylu-Addisu/Ethio_model_exit_exam_template',
         // demo: '',

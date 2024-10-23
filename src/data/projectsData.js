@@ -8,7 +8,7 @@ export const projectsData = [
     {
         id: 1,
         projectName: 'Level Up Integrated Tutoring',
-        projectDesc: '**Level Up Tutoring** is an educational application, offering live sessions, chat, quizzes, and file sharing in various formats (video, audio, image, PDF). It supports five roles—CEO, admin, tutor, family, and student—and integrates online payments, enabling a collaborative and effective learning environment. Built with React Native and Firebase, it ensures secure and scalable services.',
+        projectDesc: 'Level Up Tutoring is an educational mobile app offering live sessions, messaging chat, quizzes, and file sharing in multiple formats.. It supports five roles—CEO, admin, tutor, family, and student—and includes online payments and realtime updates.',
         tags: ['React Native', 'Firebase' ,'tailwind', 'Git', 'Expo',],
         code: 'https://github.com/Behaylu-Addisu/levelup',
         // demo: '',

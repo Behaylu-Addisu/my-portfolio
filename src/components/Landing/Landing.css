@@ -127,8 +127,8 @@
     margin-top: 1rem;
     flex-direction: column;
     width: 200px;
-    height: 120px;
-    align-items: flex-start;
+    height: auto; /* Changed to auto for flexibility */
+    align-items: center; /* Center the buttons */
   }
 }
 
@@ -150,11 +150,11 @@
     margin-top: 1rem;
     flex-direction: column;
     width: 200px;
-    height: 120px;
-    align-items: flex-start;
+    height: auto; /* Changed to auto for flexibility */
+    align-items: center; /* Center the buttons */
   }
   .lcr-buttonContainer button:nth-child(2) {
-    display: none;
+    display: none; /* Hide the contact button on smaller screens */
   }
 }
 
@@ -213,9 +213,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column; /* Ensure buttons stack vertically */
   }
   .lcr-buttonContainer button {
-    margin-top: -20%;
+    margin-top: 1rem; /* Add space between buttons */
   }
 }
 

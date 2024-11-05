@@ -164,7 +164,7 @@ function Contacts() {
                                     Name
                                 </label>
                                 <input
-                                    placeholder='Queen Elzabet'
+                                    placeholder='Queen Elizabeth'
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
                                     type='text'

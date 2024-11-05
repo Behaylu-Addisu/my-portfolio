@@ -9,7 +9,7 @@ export const educationData = [
     {
         id: 2,
         institution: 'Ethio-Japan Secondary and Preparatory School',
-        course: 'hischool and Preparatory',
+        course: 'high school and Preparatory',
         startYear: '2016',
         endYear: '2020'
     },
